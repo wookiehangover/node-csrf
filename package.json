@@ -1,15 +1,27 @@
 {
-    "name": "csrf",
-    "description": "Light-weight CSRF protection middleware with IP whitelisting",
-    "version": "0.0.1",
-    "author": "Michael Schonfeld <michael@dwolla.com>",
-    "dependencies": {
-	    "connect": "1.x",
-    	"underscore": "1.3.3"
-    },
-    "keywords": ["middleware", "ipwhitelist", "ip whilelist", "csrf"],
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/dwolla/node-csrf.git"
-    }
+  "name": "csrf",
+  "description": "Light-weight CSRF protection middleware with IP whitelisting",
+  "version": "0.0.2",
+  "author": "Michael Schonfeld <michael@dwolla.com>",
+  "dependencies": {
+    "underscore": "1.3.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.4.2"
+  },
+  "keywords": [
+    "middleware",
+    "ipwhitelist",
+    "ip whilelist",
+    "csrf"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dwolla/node-csrf.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "BSD"
 }

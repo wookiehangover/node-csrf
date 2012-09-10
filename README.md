@@ -13,7 +13,7 @@ Recommended installation is with npm. To add node-csrf to your project, do:
 
     npm install csrf
 
-## Usage
+## Usage with Express
 
     var express = require('csrf'),
         csrf = require('csrf'),
